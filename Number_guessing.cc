@@ -15,7 +15,7 @@ int main()
     // this will generate a random number between 1-100
     num = (rand()%100) + 1;
     cout<<"**********Number Guessing game************\n";
-    cout<<num;
+    
     do{
         cout<<"Pick a number between (1-100)\n ";
         cin>>guess;
